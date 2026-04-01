@@ -35,4 +35,5 @@ Das Projekt ist in zwei Phasen unterteilt:
 Systemanalyse & Modellierung
 Regler- und Beobachterentwurf
 
-<img width="597" height="358" alt="image" src="https://github.com/user-attachments/assets/3d244b3b-6341-4146-9958-f59345f32b05" />
+<img width="555" height="291" alt="image" src="https://github.com/user-attachments/assets/13abb40b-3f54-40b9-a5b8-61d755fcb597" />
+
