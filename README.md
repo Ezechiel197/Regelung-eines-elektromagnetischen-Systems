@@ -1,39 +1,41 @@
-Teil 1
+## **Part 1**
+This part deals with the modeling and control of an electromagnetic levitation system. The objective is to maintain a metallic ball in a stable hovering position through precise control of the coil current.
 
-Dieser Teil befasst sich mit der Modellierung und Regelung eines elektromagnetischen Schwebesystems. 
-Ziel ist es, eine Metallkugel durch präzise Steuerung des Spulenstroms in einer stabilen Schwebeposition zu halten.
+**System Description:**
+The system is described by a non-linear differential equation representing the balance between the gravitational force and the magnetic force.
 
-Systembeschreibung
-Das System wird durch eine nichtlineare Differentialgleichung beschrieben, die das Gleichgewicht zwischen Gravitationskraft und magnetischer Kraft darstellt
+**Controller Requirements:Stability:** 
+* **Stability:** Stabilization of the unstable operating point.
+* **Overshoot:** Maximum of 1% during a step response of the reference variable.
+* **Actuator Saturation / Constraint:** The control signal (current) must strictly remain within the range of $-15 < u < 15$.
 
-Anforderungen an den Regler:
-Stabilität: Stabilisierung des instabilen Arbeitspunkts. 
-Überschwingen: Maximal 1% bei einem Sprung der Führungsgröße.
-Stellgrößenbeschränkung: Der Strom/Stellwert darf den Bereich von -15 < u < 15 nicht verlassen.
+**Implementation (MATLAB & Simulink):**
+**The project consists of two main components:**
 
-Implementierung (MATLAB und Simulink)
-Das Projekt besteht aus zwei Hauptkomponenten:
-Initialisierungs-Skript 
-Simulink-Modelle
+* **Initialization Script:** (e.g., for parameter definition and linearization).
 
+* **Simulink Models:** (containing the control loop structure).
 
-Teil 2
+---
 
+## **Part 2**
+This project focuses on the modeling and controller design for a mechatronic system.
 
-Dieses Projekt befasst sich mit der Modellierung und dem Reglerentwurf für ein mechatronisches System
+**Project Objective:**
+Stabilizing the position of a ball on a beam/rail by adjusting the tilt angle using a servo motor. Strict requirements regarding system dynamics and actuator constraints must be met.
 
-Projektziel:
-Stabilisierung der Kugelposition auf einer Schiene durch Anpassung des Neigungswinkels mittels eines Servomotors. 
-Dabei müssen strenge Anforderungen an die Dynamik und die Stellgrößen eingehalten werden
+**System Description:**
+The movement of the ball on the beam is determined by the downhill component of the gravitational force (downward slope force). After linearization around the operating point, a state-space system with two states is obtained: position $r$ and velocity $v$.
 
-Systembeschreibung
-Die Bewegung der Kugel auf der Stange wird durch die Hangabtriebskraft bestimmt. Nach der Linearisierung im Arbeitspunkt ergibt sich ein System mit zwei Zuständen: Position r und Geschwindigkeit v.
+**Implementation (MATLAB & Simulink):**
+**The project is divided into two phases:**
 
-Implementierung (MATLAB und Simulink)
-Das Projekt ist in zwei Phasen unterteilt:
+:white_check_mark:**System Analysis & Modeling**
+:white_check_mark:**Controller & Observer Design**
 
-Systemanalyse & Modellierung
-Regler- und Beobachterentwurf
+--- 
 
+## :man_technologist: **Autor**
+**Ezechiel Tonkeme**
 <img width="555" height="291" alt="image" src="https://github.com/user-attachments/assets/13abb40b-3f54-40b9-a5b8-61d755fcb597" />
 
