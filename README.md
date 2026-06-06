@@ -31,6 +31,7 @@ The movement of the ball on the beam is determined by the downhill component of 
 **The project is divided into two phases:**
 
 :white_check_mark:**System Analysis & Modeling**
+
 :white_check_mark:**Controller & Observer Design**
 
 --- 
