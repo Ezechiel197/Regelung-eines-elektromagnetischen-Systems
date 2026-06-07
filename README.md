@@ -36,7 +36,7 @@ The movement of the ball on the beam is determined by the downhill component of 
 
 --- 
 
-## :man_technologist: **Autor**
+## :man_technologist: **Author**
 **Ezechiel Tonkeme**
 
 <img width="555" height="291" alt="image" src="https://github.com/user-attachments/assets/13abb40b-3f54-40b9-a5b8-61d755fcb597" />
